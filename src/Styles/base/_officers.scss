@@ -1,0 +1,7 @@
+.Officers {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto, 1fr);
+  color: $soulblack;
+  width: 100%;
+}
