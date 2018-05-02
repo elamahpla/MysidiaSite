@@ -1,0 +1,74 @@
+.AliceModal {
+  position: absolute;
+  top: 20rem;
+  left: 20rem;
+  right: 20rem;
+  bottom: 20rem;
+  background: rgba(209, 209, 209, 1);
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(209, 209, 209, 0.2);
+}
+
+.ButtonModalOpen {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  width: 20rem;
+  height: 5rem;
+  grid-gap: 5rem;
+  background: $offwhite;
+  color: $soulblack;
+  border: none;
+}
+
+.ButtonModalOpen:hover {
+  transform: translateY(-3px);
+}
+
+.ButtonModalOpen:active {
+  transform: translateY(-1px);
+}
+
+.ButtonModalClose {
+  display: grid; 
+  grid-template-columns: repeat(auto, 1fr);
+  background: $offwhite;
+  color: $purple;
+  border: none;
+  position: absolute;
+  right: 60rem;
+  top: 30rem;
+}
+
+.ModalText {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
+  margin-top: 10rem;
+  color: $soulblack;
+  padding: 2rem;
+}
+
+.AvenModal {
+  position: absolute;
+  top: 20rem;
+  left: 20rem;
+  right: 20rem;
+  bottom: 20rem;
+  background: rgba(209, 209, 209, 1);
+}
+
+.JoeyModal {
+  position: absolute;
+  top: 20rem;
+  left: 20rem;
+  right: 20rem;
+  bottom: 20rem;
+  background: rgba(209, 209, 209, 1);
+}

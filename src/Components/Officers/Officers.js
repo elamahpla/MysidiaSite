@@ -1,16 +1,22 @@
 import React from 'react';
+import AliceModal from '../../Containers/OfficerModals/AliceModal';
+import AvenModal from '../../Containers/OfficerModals/AvenModal';
+import AuroraModal from '../../Containers/OfficerModals/AuroraModal';
+import JoeyModal from '../../Containers/OfficerModals/JoeyModal';
 
 const Officers = () => (
   <div>
-    <div className="Officers">
+    <div className="OfficersContainer">
       <h1>From Officers</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse cum repellendus numquam odit, nihil quibusdam.</p>    
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse cum repellendus numquam odit, nihil quibusdam.</p>    
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse cum repellendus numquam odit, nihil quibusdam.</p>    
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse cum repellendus numquam odit, nihil quibusdam.</p>    
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse cum repellendus numquam odit, nihil quibusdam.</p>    
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse cum repellendus numquam odit, nihil quibusdam.</p>    
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse cum repellendus numquam odit, nihil quibusdam.</p>    
+        <div className="Officers">
+          <AliceModal />
+          <hr/>
+          <AvenModal />
+          <hr/>
+          <AuroraModal />
+          <hr/>
+          <JoeyModal />
+        </div>
     </div>
   </div>
 );

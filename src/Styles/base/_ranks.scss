@@ -1,4 +1,4 @@
-.OfficersContainer {
+.RanksContainer {
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(auto, 1fr);
@@ -8,12 +8,19 @@
   top: 14rem;
 }
 
-.Officers {
+.Ranks {
   top: 0;
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(auto, 1fr);
+  grid-gap: 2rem;
+  grid-template-columns: repeat(5, 1fr);
   color: $soulblack;
   width: 100%;
-  background: rgba(209, 209, 209, 0.5);
+}
+
+.CardRanks {
+  display: grid;
+  justify-items: center;
+  height: 250px;
+  width: 250px;
 }

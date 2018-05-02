@@ -1,0 +1,42 @@
+.RaidingContainer {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  padding: 1rem;
+  transform: translate(-50%, -50%);
+  background: rgba(209, 209, 209, 0.2);
+}
+
+.Raiding {
+  background: rgba(209, 209, 209, 0.3);
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+}
+
+.SubRaiding {
+  background: rgba(209, 209, 209, 0.5);
+  font-weight: bolder;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.RaidingText {
+  font-size: 3rem;
+}
+
+@media(max-width: 650px) {
+  .RaidingContainer {
+    display: grid;
+    width: 100%;
+    height: 80;
+    margin-top: 10rem;
+    color: $soulblack;
+    background: $lightwhite;
+  }
+}
