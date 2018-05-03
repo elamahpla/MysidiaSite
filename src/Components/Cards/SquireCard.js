@@ -6,8 +6,9 @@ const SquireCard = () => (
     <Card
       header={
       <CardTitle
-        reveal 
-        image={'http://via.placeholder.com/250x30'} 
+        style={{height: '21.5vh'}}
+        reveal
+        image={'https://s3-us-west-2.amazonaws.com/mystassets/squire.jpg'}
         waves='light'
       />}
         title="Squire"

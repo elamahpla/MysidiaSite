@@ -1,19 +1,39 @@
 .OfficersContainer {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(auto, 1fr);
+  // display: grid;
+  // justify-items: center;
+  // grid-template-columns: repeat(auto, 1fr);
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
   color: $soulblack;
-  width: 100%;
   position: fixed;
   top: 14rem;
+  left: 13rem;
 }
 
 .Officers {
-  top: 0;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  color: $soulblack;
+}
+
+.Inactive {
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(auto, 1fr);
+  position: fixed;
+  top: 12rem;
+  background: $offwhite;
   color: $soulblack;
-  width: 100%;
-  background: rgba(209, 209, 209, 0.5);
+}
+
+.InactiveOfficers {
+  top: 10rem;
+  display: grid;
+  grid-gap: .5rem;
+  justify-items: center;
+  position: fixed;
+}
+
+.ModalImage {
+  border-radius: 1rem;
 }

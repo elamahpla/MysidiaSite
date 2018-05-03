@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
 import AuroraOfficerModal from '../../Components/Officers/OfficerModals/AuroraOfficerModal';
+import { Button } from 'react-materialize';
 
 class AuroraModal extends Component {
   state = {
@@ -15,24 +16,28 @@ class AuroraModal extends Component {
   render() {
     return (
       <div>
-        <button
-          className="ButtonModalOpen"
-          onClick={this.handleOpenModal}
-        >
-          Aurora
-        </button>
+        <img style={{width: '20rem', height: '20rem'}} src="https://cdn.discordapp.com/attachments/415463104579895296/441330700910592010/2018-04-30_23_46_51-FINAL_FANTASY_XIV.png" alt=""/>
+      <Button
+        onClick={this.handleOpenModal}
+        className="ButtonModalOpen"
+        waves='light' >
+        Aurora
+      </Button>
         <Modal
           isOpen={this.state.showModal}
-          contentLabel="Aven"
+          contentLabel="Aurora"
           onRequestClose={this.handleCloseModal}
-          className="AuroraModal"
+          className="AliceModal"
           overlayClassName="Overlay"
         >
         <div>
           <AuroraOfficerModal />
-          <button 
+          <button
+            onClick={this.handleCloseModal}
             onRequestClose={this.handleCloseModal}
-            className="ButtonModalClose">Close</button>
+            className="ButtonModalClose">
+            Close
+          </button>
         </div>
         </Modal>
       </div>

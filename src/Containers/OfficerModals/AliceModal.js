@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
 import AliceOfficerModal from '../../Components/Officers/OfficerModals/AliceOfficerModal';
+import { Button } from 'react-materialize';
 
 class AliceModal extends Component {
   state = {
@@ -15,12 +16,15 @@ class AliceModal extends Component {
   render() {
     return (
       <div>
-        <button
+        <img className="ModalImage" style={{width: '20rem', height: '20rem'}} src="https://cdn.discordapp.com/attachments/415463104579895296/441360944472260618/2018-04-30_23_46_51-FINAL_FANTASY_XIV_1.png" alt=""/>
+        <br/><br/>
+        <Button
+          waves='light'
           className="ButtonModalOpen"
           onClick={this.handleOpenModal}
         >
           Alice
-        </button>
+        </Button>
         <Modal
           isOpen={this.state.showModal}
           contentLabel="Alice"

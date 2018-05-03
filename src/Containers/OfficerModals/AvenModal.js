@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
 import AvenOfficerModal from '../../Components/Officers/OfficerModals/AvenOfficerModal';
+import { Button } from 'react-materialize';
 
 class AvenModal extends Component {
   state = {
@@ -15,12 +16,14 @@ class AvenModal extends Component {
   render() {
     return (
       <div>
-        <button
+        <img style={{width: '20rem', height: '20rem'}} src="https://cdn.discordapp.com/attachments/415463104579895296/441350868101627924/2018-04-30_23_46_51-FINAL_FANTASY_XIV.jpg" alt=""/>
+        <Button
+          waves='light'
           className="ButtonModalOpen"
           onClick={this.handleOpenModal}
         >
           Aven
-        </button>
+        </Button>
         <Modal
           isOpen={this.state.showModal}
           contentLabel="Aven"
@@ -30,9 +33,12 @@ class AvenModal extends Component {
         >
         <div>
           <AvenOfficerModal />
-          <button 
+          <button
+            onClick={this.handleCloseModal}
             onRequestClose={this.handleCloseModal}
-            className="ButtonModalClose">Close</button>
+            className="ButtonModalClose">
+            Close
+          </button>
         </div>
         </Modal>
       </div>

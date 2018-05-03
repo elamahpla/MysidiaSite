@@ -25,10 +25,12 @@
   background: $offwhite;
   color: $soulblack;
   border: none;
+  box-shadow: 5px 5px $lightwhite;
 }
 
 .ButtonModalOpen:hover {
   transform: translateY(-3px);
+  background: $offwhite;
 }
 
 .ButtonModalOpen:active {
@@ -38,12 +40,22 @@
 .ButtonModalClose {
   display: grid; 
   grid-template-columns: repeat(auto, 1fr);
-  background: $offwhite;
-  color: $purple;
+  background: $lightwhite;
+  color: $soulblack;
   border: none;
   position: absolute;
   right: 60rem;
   top: 30rem;
+  box-shadow: 1px 2px $soulblack;
+}
+
+.ButtonModalClose:hover {
+  transform: translateY(-3px);
+  background: $offwhite;
+}
+
+.ButtonModalClose:active {
+  transform: translateY(-1px);
 }
 
 .ModalText {

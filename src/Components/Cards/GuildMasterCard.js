@@ -6,8 +6,9 @@ const GuildMasterCard = () => (
     <Card
       header={
       <CardTitle
+        style={{height: '21.5vh'}}
         reveal 
-        image={'http://via.placeholder.com/250x30'} 
+        image={'https://s3-us-west-2.amazonaws.com/mystransandofficers/guildmaster.png'} 
         waves='light'
       />}
         title="Guild Master"

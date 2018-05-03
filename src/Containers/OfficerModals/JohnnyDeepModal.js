@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
-import JoeyOfficerModal from '../../Components/Officers/OfficerModals/JoeyOfficerModal';
-import { Button } from 'react-materialize';
+import JohnnyDeepOfficerModal from '../../Components/Officers/OfficerModals/JohnnyDeepOfficerModal';
 
-class JoeyModal extends Component {
+class JohnnyDeepModal extends Component {
   state = {
     showModal: false
   };
@@ -16,22 +15,21 @@ class JoeyModal extends Component {
   render() {
     return (
       <div>
-        <img style={{width: '20rem', height: '20rem'}} src="https://cdn.discordapp.com/attachments/415463104579895296/441330700910592010/2018-04-30_23_46_51-FINAL_FANTASY_XIV.png" alt=""/>
-      <Button
-        onClick={this.handleOpenModal} 
-        className="ButtonModalOpen"
-        waves='light' >
-        Eat Shit
-      </Button>
+        <button
+          className="ButtonModalOpen"
+          onClick={this.handleOpenModal}
+        >
+          Johnny Deep
+        </button>
         <Modal
           isOpen={this.state.showModal}
-          contentLabel="Joey"
+          contentLabel="JohnnyDeep"
           onRequestClose={this.handleCloseModal}
-          className="JoeyModal"
+          className="AliceModal"
           overlayClassName="Overlay"
         >
         <div>
-          <JoeyOfficerModal />
+          <JohnnyDeepOfficerModal />
           <button 
             onClick={this.handleCloseModal}
             className="ButtonModalClose">
@@ -44,4 +42,4 @@ class JoeyModal extends Component {
   }
 };
 
-export default JoeyModal;
+export default JohnnyDeepModal;

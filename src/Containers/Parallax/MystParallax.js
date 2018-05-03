@@ -3,20 +3,18 @@ import { Parallax, Background } from 'react-parallax';
 import Routes from '../Routes/Routes';
 import DummyComponent from '../../Components/DummyComponent/DummyComponent';
 
-const imageOne = 'https://i.imgur.com/wlucGfB.jpg';
-const imageTwo = 'https://i.imgur.com/61BsQ53.png';
-const imageThree = 'https://i.imgur.com/61kRF4Z.jpg';
-const imageFour = 'https://i.imgur.com/kALwnE9.jpg';
-const imageFive = 'https://i.imgur.com/qWk1Efe.jpg';
+const imageOne = 'https://i.imgur.com/TTnsXW6.png';
+const imageTwo = 'https://i.imgur.com/pxarite.png';
 
 const MystParallax = () => (
   <div>
     <Parallax 
-      bgImage={imageFive}
-      strength={300}
+      bgImage={imageOne}
+      strength={150}
+      style={{height: '100vh'}}
     >
       <div 
-        style={{height: '1000px'}}
+        style={{height: '10%'}}
       >
       <img 
         src={imageTwo} 
@@ -33,11 +31,6 @@ const MystParallax = () => (
       </div>
       </Parallax> */}
       <Routes />
-        <div 
-          className="Alice"
-        >
-        fuck
-        </div>
       </div>
       </Parallax>
       <DummyComponent />
