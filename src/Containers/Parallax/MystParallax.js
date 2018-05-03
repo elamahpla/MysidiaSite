@@ -5,13 +5,14 @@ import DummyComponent from '../../Components/DummyComponent/DummyComponent';
 
 const imageOne = 'https://i.imgur.com/TTnsXW6.png';
 const imageTwo = 'https://i.imgur.com/pxarite.png';
+const imageThree = 'https://i.imgur.com/zRdRC2x.jpg';
 
 const MystParallax = () => (
   <div>
     <Parallax 
-      bgImage={imageOne}
+      bgImage={imageThree}
       strength={150}
-      style={{height: '100vh'}}
+      style={{height: '100%'}}
     >
       <div 
         style={{height: '10%'}}
