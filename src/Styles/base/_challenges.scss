@@ -1,14 +1,17 @@
 .ChallengesContainer {
-  position: absolute;
+  text-align: center;
+  position: fixed;
   margin: auto;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  width: 9rem;
+  width: 75vh;
   margin-top: 10rem;
-  height: 9rem;
+  height: 75vw;
 }
 
 .Challenges {
+  text-align: left;
+  font-size: 2rem;
 }

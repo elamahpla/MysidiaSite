@@ -16,8 +16,7 @@ class AliceModal extends Component {
   render() {
     return (
       <div>
-        <img className="ModalImage" style={{width: '20rem', height: '20rem'}} src="https://cdn.discordapp.com/attachments/415463104579895296/441360944472260618/2018-04-30_23_46_51-FINAL_FANTASY_XIV_1.png" alt=""/>
-        <br/><br/>
+        <img style={{width: '20rem', height: '20rem'}} src="https://cdn.discordapp.com/attachments/415463104579895296/441330700910592010/2018-04-30_23_46_51-FINAL_FANTASY_XIV.png" alt=""/>
         <Button
           waves='light'
           className="ButtonModalOpen"

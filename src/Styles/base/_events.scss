@@ -1,5 +1,5 @@
 .EventsContainer {
-  color: black;
+  color: $soulblack;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -7,10 +7,17 @@
   height: 75%;
   transform: translate(-50%, -50%);
   display: grid;
-  grid-template-columns: repeat(repeat, 1fr);
+  grid-template-columns: repeat(auto, 1fr);
 }
 
 .CardOne {
-  background: rgba(235, 231, 231, 0.4);
-  color: $soulblack;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.CardText {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
 }
