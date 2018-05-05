@@ -8,7 +8,7 @@ const DukeCard = () => (
       <CardTitle
         style={{height: '21.5vh'}}
         reveal 
-        image={'https://s3-us-west-2.amazonaws.com/mystransandofficers/duke.jpg'} 
+        image={'https://s3-us-west-2.amazonaws.com/mystassets/duke.jpg'}
         waves='light'
       />}
         title="Duke"

@@ -8,7 +8,7 @@ const LordCard = () => (
       <CardTitle
         style={{height: '21.5vh'}}
         reveal 
-        image={'https://s3-us-west-2.amazonaws.com/mystransandofficers/lord.png'} 
+        image={'https://s3-us-west-2.amazonaws.com/mystassets/lord.jpg'}
         waves='light'
       />}
         title="Lord"

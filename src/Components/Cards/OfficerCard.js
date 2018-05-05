@@ -8,7 +8,7 @@ const OfficerCard = () => (
       <CardTitle
         style={{height: '21.5vh'}}
         reveal 
-        image={'https://s3-us-west-2.amazonaws.com/mystransandofficers/officer.jpg'} 
+        image={'https://s3-us-west-2.amazonaws.com/mystassets/officer.jpg'}
         waves='light'
       />}
         title="Officer"

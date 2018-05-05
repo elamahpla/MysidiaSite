@@ -8,7 +8,7 @@ const RaidLeaderCard = () => (
       <CardTitle
         style={{height: '21.5vh'}}
         reveal 
-        image={'https://s3-us-west-2.amazonaws.com/mystransandofficers/raidleader.jpg'} 
+        image={'https://s3-us-west-2.amazonaws.com/mystassets/raidleader.jpg'}
         waves='light'
       />}
         title="Raid Leader"

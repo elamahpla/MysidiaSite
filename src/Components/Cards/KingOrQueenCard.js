@@ -8,7 +8,7 @@ const KingOrQueenCard = () => (
       <CardTitle
         style={{height: '21.5vh'}}
         reveal 
-        image={'https://s3-us-west-2.amazonaws.com/mystransandofficers/kingorqueen.jpg'} 
+        image={'https://s3-us-west-2.amazonaws.com/mystassets/kingorqueen.jpg'}
         waves='light'
       />}
         title="King/Queen"

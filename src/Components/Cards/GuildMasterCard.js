@@ -8,7 +8,7 @@ const GuildMasterCard = () => (
       <CardTitle
         style={{height: '21.5vh'}}
         reveal 
-        image={'https://s3-us-west-2.amazonaws.com/mystransandofficers/guildmaster.png'} 
+        image={'https://s3-us-west-2.amazonaws.com/mystassets/guildmaster.jpg'}
         waves='light'
       />}
         title="Guild Master"

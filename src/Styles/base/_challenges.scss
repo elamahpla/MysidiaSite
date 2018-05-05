@@ -9,9 +9,25 @@
   width: 75vh;
   margin-top: 10rem;
   height: 75vw;
+  color: #000000;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
 }
 
-.Challenges {
-  text-align: left;
-  font-size: 2rem;
+.ChallengeOne {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
+}
+
+.ChallengeTwo {
+  display: grid;
+  grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
+}
+
+.CardOne {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
 }
