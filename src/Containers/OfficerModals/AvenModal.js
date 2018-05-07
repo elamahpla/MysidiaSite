@@ -16,7 +16,7 @@ class AvenModal extends Component {
   render() {
     return (
       <div>
-        <img style={{width: '20rem', height: '20rem'}} src="https://cdn.discordapp.com/attachments/415463104579895296/441350868101627924/2018-04-30_23_46_51-FINAL_FANTASY_XIV.jpg" alt=""/>
+        <img className="ModalImage" src="https://cdn.discordapp.com/attachments/415463104579895296/441350868101627924/2018-04-30_23_46_51-FINAL_FANTASY_XIV.jpg" alt=""/>
         <Button
           waves='light'
           className="ButtonModalOpen"
@@ -28,7 +28,7 @@ class AvenModal extends Component {
           isOpen={this.state.showModal}
           contentLabel="Aven"
           onRequestClose={this.handleCloseModal}
-          className="AvenModal"
+          className="AliceModal"
           overlayClassName="Overlay"
         >
         <div>

@@ -8,6 +8,10 @@
   top: 14rem;
 }
 
+.material-icons {
+  display: none;
+}
+
 .Ranks {
   top: 0;
   display: grid;
@@ -21,6 +25,43 @@
 .CardRanks {
   display: grid;
   justify-items: center;
-  height: 15.625rem;
-  width: 15.625rem;;
+  text-align: center;
+  height: 250px;
+  width: 250px;
+}
+
+.CardTitle img {
+  height: 21vh;
+}
+
+
+@media(max-width: 650px) {
+  .CardTitle img {
+    height: 15rem;
+  }
+  .CardRanks {
+    padding: 0;
+    margin: 0;
+    height: 150px;
+    width: 150px;
+    display: grid;
+    grid-template-columns: repeat(auto, 1fr);
+  }
+  span {
+    display: none;
+  }
+  .RanksContainer {
+    color: $soulblack;
+    top: 10rem;
+  }
+  .Ranks {
+    padding: 2.5rem;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    color: $soulblack;
+  }
+  .card-content {
+    display: none;
+  }
 }

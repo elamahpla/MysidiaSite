@@ -6,14 +6,13 @@ const RaidLeaderCard = () => (
     <Card
       header={
       <CardTitle
-        style={{height: '21.5vh'}}
+        className="CardTitle"
         reveal 
         image={'https://s3-us-west-2.amazonaws.com/mystassets/raidleader.jpg'}
         waves='light'
       />}
-        title="Raid Leader"
+        title="Caesar"
         className="CardRanks"
-        style={{textAlign: 'center', height: '250px', width: '250px'}}
         reveal={<p>To become Raid Leader, you must first prove yourself reliable and example exceptional conduct. All Raid Leaders are expected to lead an FC raid team, resolve disputes when needed, and help teach unskilled members content when required.
           </p>}>
     </Card>

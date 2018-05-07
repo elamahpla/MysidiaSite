@@ -1,23 +1,22 @@
 import React from 'react';
 import { Card, CardTitle } from 'react-materialize';
 
-const KingOrQueenCard = () => (
+const HighBorn = () => (
   <div>
     <Card
       header={
       <CardTitle
-        style={{height: '21.5vh'}}
+        className="CardTitle"
         reveal 
         image={'https://s3-us-west-2.amazonaws.com/mystassets/kingorqueen.jpg'}
         waves='light'
       />}
-        title="King/Queen"
+        title="Viscount"
         className="CardRanks"
-        style={{textAlign: 'center', height: '250px', width: '250px'}}
         reveal={<p>To become a King/Queen you must have all Combat, Gathering, and Crafting jobs at max level.
           </p>}>
     </Card>
   </div>
 );
 
-export default KingOrQueenCard;
+export default HighBorn;
