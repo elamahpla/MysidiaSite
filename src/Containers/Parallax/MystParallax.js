@@ -22,29 +22,10 @@ const MystParallax = () => (
       />
       </div>
       <div>
-      {/* <Parallax 
-        bgImage={imageOne}
-        strength={300}>
-      <div 
-        style={{
-        height: '750px'}}
-      >
-      </div>
-      </Parallax> */}
       <Routes />
       </div>
       </Parallax>
       <DummyComponent />
-      {/* <Parallax 
-        bgImage={imageOne}
-        strength={300}>
-      <div 
-        style={{
-          height: '300px', 
-          width: '150px'}}
-      >
-      </div>
-      </Parallax> */}
   </div>
 );
 export default MystParallax;
