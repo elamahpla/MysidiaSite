@@ -6,6 +6,7 @@ import DummyComponent from '../../Components/DummyComponent/DummyComponent';
 const imageOne = 'https://i.imgur.com/TTnsXW6.png';
 const imageTwo = 'https://i.imgur.com/pxarite.png';
 const imageThree = 'https://i.imgur.com/zRdRC2x.jpg';
+const imageFour = 'https://i.imgur.com/RgMOv6l.jpg';
 
 const MystParallax = () => (
   <div>
@@ -20,20 +21,19 @@ const MystParallax = () => (
         <Routes />
       </div>
       </Parallax>
-      <DummyComponent />
+      {/* <DummyComponent /> */}
+      <div>
       <Parallax 
-      bgImage={imageThree}
-      strength={170}
-      style={{height: '100vh'}}
+      bgImage={imageFour}
+      strength={50}
+      style={{height: '5vh'}}
     >
       <div 
         style={{height: '5%'}}
       >
-      <img 
-        src={imageTwo} 
-      />
       </div>
       </Parallax>
+      </div>
   </div>
 );
 export default MystParallax;
