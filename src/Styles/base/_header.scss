@@ -25,19 +25,13 @@
 /* General sidebar styles */
 .bm-menu {
   background: #373a47;
-  padding: 2.5em 1.5em 0;
+  padding: 2.5em 1.5em;
   font-size: 1.15em;
 }
 
 .bm-menu-wrap {
-  bottom: 0;
   left: 0;
-  height: 90%;
-}
-
-/* Morph shape necessary with bubble or elastic */
-.bm-morph-shape {
-  fill: #373a47;
+  top: 0;
 }
 
 /* Wrapper for item list */
@@ -48,5 +42,6 @@
 
 /* Styling of overlay */
 .bm-overlay {
+  height: 80%;
   background: rgba(0, 0, 0, 0.3);
 }

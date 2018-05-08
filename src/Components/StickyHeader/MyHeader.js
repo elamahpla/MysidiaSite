@@ -5,9 +5,7 @@ import { NavLink } from 'react-router-dom';
 import CollapsingHeader from '../../Containers/CollapsingHeader/CollapsingHeader';
 
 const MyHeader = () => (
-  <div id="outer-container">
-    <CollapsingHeader />
-  </div>
+  <CollapsingHeader />
 );
 
 export default MyHeader;
