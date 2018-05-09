@@ -6,7 +6,7 @@ import DummyComponent from '../../Components/DummyComponent/DummyComponent';
 const imageOne = 'https://i.imgur.com/TTnsXW6.png';
 const imageTwo = 'https://i.imgur.com/pxarite.png';
 const imageThree = 'https://i.imgur.com/zRdRC2x.jpg';
-const imageFour = 'https://i.imgur.com/RgMOv6l.jpg';
+const imageFour = 'https://i.imgur.com/nigVlUE.jpg';
 
 const MystParallax = () => (
   <div>
@@ -25,7 +25,7 @@ const MystParallax = () => (
       <div>
       <Parallax 
       bgImage={imageFour}
-      strength={50}
+      strength={140}
       style={{height: '5vh'}}
     >
       <div 

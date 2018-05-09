@@ -1,3 +1,8 @@
+.NavLinks {
+  list-style: none;
+  display: block;
+}
+
 .bm-burger-button {
   position: fixed;
   width: 36px;
@@ -25,8 +30,12 @@
 /* General sidebar styles */
 .bm-menu {
   background: #373a47;
-  padding: 2.5em 1.5em;
+  padding: 3.5em 2em 1em;
   font-size: 1.15em;
+  width: 27rem;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .bm-menu-wrap {

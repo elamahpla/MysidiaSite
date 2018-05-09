@@ -1,16 +1,17 @@
 .HomeContainer {
-  display: grid;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: $soulblack;
   position: fixed;
-  top: 14rem;
+  top: 10%;
+  width: 100%;
 }
 
 .Home {
-  display: grid;
-  justify-items: center;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: $soulblack;
 }
 
@@ -25,11 +26,15 @@
 @media(max-width: 650px) {
   .HomeContainer {
     position: fixed;
-    top: 10rem;
-    height: 50%;
+    top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .Home {
-    grid-gap: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .SubHome {
     padding: 0;

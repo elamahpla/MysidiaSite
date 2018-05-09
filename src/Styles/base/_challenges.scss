@@ -1,33 +1,47 @@
 .ChallengesContainer {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $soulblack;
   position: fixed;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 75vh;
-  margin-top: 10rem;
-  height: 75vw;
-  color: #000000;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 5rem;
+  top: 10%;
+  width: 100%;
 }
 
-.ChallengeOne {
+.Challenges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $soulblack;
+}
+
+.SubChallenges {
   display: grid;
-  grid-template-columns: repeat(auto, 1fr);
   justify-items: center;
+  color: $soulblack;
+  background: rgba(209, 209, 209, 0.5);
+  padding: 1rem;
 }
 
-.ChallengeTwo {
-  display: grid;
-  grid-template-columns: repeat(auto, 1fr);
-  justify-items: center;
-}
-
-.CardOne {
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
+@media(max-width: 650px) {
+  .ChallengesContainer {
+    position: fixed;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: $soulblack;
+  }
+  .Challenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .SubChallenges {
+    padding: 0;
+    background: $lightwhite;
+    color: $soulblack;
+    height: 25rem;
+  }
 }
