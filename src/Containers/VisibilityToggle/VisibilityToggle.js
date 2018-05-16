@@ -18,21 +18,15 @@ class VisibilityToggle extends Component {
   render() {
     return (
       <div>
-        <h1>Inactive Officers</h1>
         <button onClick={this.handleToggleVisibility}>
             {this.state.visibility ? 'Hide Inactice Officers' : 'Show Inactive Officers'}
         </button>
         {this.state.visibility && (
-          <div className="Inactive">
-            <div className="InactiveOfficers">
-              <JacobDavidModal />
-              <br/>
-              <JohnnyDeepModal />
-              <br/>
-              <ColmArkusModal />
-              <br/>
-              <ZeixBeoulveModal />
-            </div>
+          <div>
+            <JacobDavidModal />
+            <JohnnyDeepModal />
+            <ColmArkusModal />
+            <ZeixBeoulveModal />
           </div>
         )}
       </div>

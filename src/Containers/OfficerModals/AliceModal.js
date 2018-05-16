@@ -16,7 +16,14 @@ class AliceModal extends Component {
   render() {
     return (
       <div>
-        <img className="ModalImage" src="https://cdn.discordapp.com/attachments/415463104579895296/441330700910592010/2018-04-30_23_46_51-FINAL_FANTASY_XIV.png" alt=""/>
+        <a 
+          href="https://na.finalfantasyxiv.com/lodestone/character/16698127/" 
+          target="_blank">
+          <img 
+            className="ModalImage" 
+            src="https://s3-us-west-2.amazonaws.com/mystassets/alicemodal.png" 
+            alt="Alice Whitethorn, Officer, FF14, Mysidia, Myst, Final Fantasy 14, Free Company, Free Company Website, Cactuar"/>
+        </a>
         <Button
           waves='light'
           className="ButtonModalOpen"

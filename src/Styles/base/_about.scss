@@ -1,0 +1,22 @@
+.AboutContainer {
+  position: fixed;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.About {
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.About img {
+  width: 20rem;
+  height: 20rem;
+}

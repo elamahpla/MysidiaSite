@@ -1,7 +1,4 @@
 .RanksContainer {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(auto, 1fr);
   color: $soulblack;
   width: 100%;
   position: fixed;
@@ -16,7 +13,7 @@
   top: 0;
   display: grid;
   justify-items: center;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   grid-template-columns: repeat(5, 1fr);
   color: $soulblack;
   width: 100%;
@@ -35,31 +32,33 @@
 }
 
 
-@media(max-width: 650px) {
+@media(max-width: 450px) {
   .CardTitle img {
     height: 15rem;
   }
   .CardRanks {
     padding: 0;
     margin: 0;
-    height: 130px;
-    width: 130px;
-  }
-  span {
-    display: none;
+    height: 150px;
+    width: 187px;
   }
   .RanksContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     color: $soulblack;
-    top: 0;
   }
   .Ranks {
-    position: fixed;
-    top: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: wrap;
-    align-content: center;
+    flex-direction: row;
+    // flex-flow: column;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0%;
+    // display: grid;
+    // grid-gap: 2rem;
+    // grid-template-columns: repeat(auto-fit, 75px);
+    // grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
   }
   .card-content {
     display: none;

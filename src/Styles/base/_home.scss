@@ -1,42 +1,83 @@
 .HomeContainer {
   display: flex;
-  flex-direction: column;
+  align-content: center;
+  justify-content: center;
   align-items: center;
-  color: $soulblack;
-  position: fixed;
-  top: 10%;
+  flex-flow: column;
+  flex-direction: column; 
   width: 100%;
+  position: fixed;
+  top: 25%;
+  font-size: 2rem;
 }
 
-.Home {
+.MemberSpotlight {
+  color: $soulblack;
+  background: rgba(235, 231, 231, 0.375);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: $soulblack;
+  align-content: center;
+  justify-content: center;
+  width: 50%;
 }
 
-.SubHome {
-  display: grid;
-  justify-items: center;
-  color: $soulblack;
-  background: rgba(209, 209, 209, 0.5);
+.HomeTwo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  width: 50%;
+}
+
+.MemberSpotlightText {
   padding: 1rem;
 }
 
-@media(max-width: 650px) {
+.MemberSpotlightButton {
+  padding: .5rem;
+  margin: 2rem;
+  border: none;
+  background: $lightwhite;
+  color: $soulblack;
+  box-shadow: 1px 1px $soulblack;
+}
+
+.MemberSpotlightButton:hover {
+  transform: translateY(-3px);
+}
+
+.MemberSpotlightButton:active {
+  transform: translateY(-1px);
+}
+
+.HomeContainer p {
+  float: left;
+  text-align: center;
+}
+
+.HomeContainer img {
+  float: right;
+  height: 25rem;
+  width: 17rem;
+}
+
+@media(max-width: 639px) {
   .HomeContainer {
+    display: flex;
     position: fixed;
-    top: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    top: 5%;
+    width: 100%;
   }
-  .Home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .SubHome {
+  .MemberSpotlight {
+    width: 100%;
     padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.3);
+    color: $lightwhite;
+  }
+  .HomeTwo {
+    width: 100%;
   }
 }

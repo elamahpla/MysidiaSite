@@ -6,7 +6,7 @@ const Raiding = () => (
   <div className="RaidingContainer">
     <Jumbotron>
       <Tabs style={{color: 'white'}} className='testing'>
-        <Tab title="Who are We?">
+        <Tab active title="Who are We?">
           <div className="TabsList">
             We are The Village Idiots. The primary raiding group of the FC. Our name was a unanimous decision amongst the raiding members.
           </div>

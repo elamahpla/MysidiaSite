@@ -1,8 +1,11 @@
 import React from 'react';
+import MystGallery from '../../Containers/ImageGallery/MystGallery';
 
 const Housing = () => (
-  <div>
-    From Housing
+  <div className="MystGalleryContainer">
+    <div className="MystGallery">
+      <MystGallery />
+    </div>
   </div>
 );
 

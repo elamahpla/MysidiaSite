@@ -32,6 +32,8 @@
     "react-bootstrap": "^0.32.1",
     "react-burger-menu": "^2.4.4",
     "react-dom": "^16.2.0",
+    "react-favicon": "0.0.14",
+    "react-image-gallery": "^0.8.7",
     "react-materialize": "^2.2.0",
     "react-modal": "^3.4.4",
     "react-parallax": "^1.7.0",

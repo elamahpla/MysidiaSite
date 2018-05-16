@@ -13,8 +13,8 @@ const MystParallax = () => (
     <Parallax 
       bgImage={imageThree}
       strength={170}
-      style={{height: '100vh'}}>
-      <div style={{height: '5%'}}>
+      style={{height: '115vh'}}>
+      <div style={{height: '10%'}}>
       <img src={imageTwo} />
       </div>
       <div>
@@ -22,7 +22,7 @@ const MystParallax = () => (
       </div>
       </Parallax>
       {/* <DummyComponent /> */}
-      <div>
+      {/* <div>
       <Parallax 
       bgImage={imageFour}
       strength={140}
@@ -33,7 +33,7 @@ const MystParallax = () => (
       >
       </div>
       </Parallax>
-      </div>
+      </div> */}
   </div>
 );
 export default MystParallax;

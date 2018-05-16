@@ -38,6 +38,13 @@
   top: 0;
 }
 
+.Test {
+  position: fixed;
+  top: 0;
+  background: #000;
+  color: white;
+}
+
 .bm-menu-wrap {
   left: 0;
   top: 0;
@@ -53,4 +60,15 @@
 .bm-overlay {
   height: 80%;
   background: rgba(0, 0, 0, 0.3);
+}
+
+@media(max-width: 650px) {
+  .bm-burger-button {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .bm-burger-button:hover {
+    transform: translateX(5px);
+  }
 }

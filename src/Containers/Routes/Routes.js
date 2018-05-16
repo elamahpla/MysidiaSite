@@ -11,6 +11,7 @@ import Rules from '../../Components/Rules/Rules';
 import MyHeader from '../../Components/StickyHeader/MyHeader';
 import About from '../../Components/About/About';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import InactiveOfficers from '../../Components/Officers/OfficerModals/InactiveOfficers/InactiveOfficers';
 
 class Routes extends Component {
   render() {
@@ -20,7 +21,8 @@ class Routes extends Component {
         <MyHeader />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/officers" component={Officers} />
+            <Route exact path="/officers" component={Officers} />
+            <Route path="/officers/inactive" component={InactiveOfficers} />
             <Route path="/ranks" component={Ranks} />
             <Route path="/raiding" component={Raiding} />
             <Route path="/challenges" component={Challenges} />

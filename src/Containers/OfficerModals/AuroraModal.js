@@ -16,7 +16,15 @@ class AuroraModal extends Component {
   render() {
     return (
       <div>
-        <img className="ModalImage" src="https://cdn.discordapp.com/attachments/415463104579895296/441330700910592010/2018-04-30_23_46_51-FINAL_FANTASY_XIV.png" alt=""/>
+        <a 
+          href="https://na.finalfantasyxiv.com/lodestone/character/18364927/" 
+          target="_blank">
+          <img 
+            className="ModalImage" 
+            src="https://s3-us-west-2.amazonaws.com/mystassets/auroramodal.jpg" 
+            alt="Aurora Dystroyer, Officer, FF14, Mysidia, Myst, Final Fantasy 14, Free Company, Free Company Website, Cactuar"
+          />
+        </a>
       <Button
         onClick={this.handleOpenModal}
         className="ButtonModalOpen"

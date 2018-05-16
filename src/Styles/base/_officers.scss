@@ -1,44 +1,75 @@
 .OfficersContainer {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-around;
-  text-align: center;
+  align-items: center;
+  align-content: stretch; 
+  text-align: center; 
   color: $soulblack;
   position: fixed;
-  top: 14rem;
-  left: 13rem;
+  top: 15rem;
+  width: 100%;
 }
 
-.Officers {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  color: $soulblack;
-}
-
-.Inactive {
-  display: grid;
-  justify-items: center;
+.InactiveOfficersLink {
   position: fixed;
-  top: 12rem;
-  background: $offwhite;
+  top: 65%;
+  border: none;
+}
+
+.InactiveOfficersLink button {
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px $soulblack;
+  border: none;
   color: $soulblack;
+}
+
+.InactiveOfficersLink button:hover {
+  transform: translateY(-3px);
+}
+
+.InactiveOfficersLink button:active {
+  transform: translateY(1px);
+}
+
+.InactiveOfficersContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  top: 10%;
+  width: 100%;
 }
 
 .InactiveOfficers {
-  top: 10rem;
-  display: grid;
-  grid-gap: .5rem;
-  justify-items: center;
-  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.Officers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  color: $soulblack;
 }
 
 @media(max-width: 650px) {
+  .OfficersContainer {
+    position: fixed;
+    left: 0;
+    top: 5rem;
+  }
   .Officers {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    position: fixed;
-    top: 20rem;
+    height: 50%;
+    top: 0;
     left: 0;
-    padding: 0;
-    margin: 0;
   }
 }

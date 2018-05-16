@@ -1,8 +1,6 @@
 import React from 'react';
 import { Collapsible, CollapsibleItem } from 'react-materialize';
 
-const hideAndSeek = [`https://i.imgur.com/Z14s1GE.jpg`];
-
 const Events = () => (
   <div className="EventsContainer">
     <Collapsible popout accordion={true}>
@@ -16,12 +14,21 @@ const Events = () => (
       </div>
       </CollapsibleItem>
       <CollapsibleItem 
+        className="CardOne"
+        header="Weekly Trivia"
+        style={{textAlign: 'center'}}
+      >
+      <div className="CardText">
+        <p>Every Sunday night we hold a trivia event. Each week, a new subject will be given (It will be displayed in FC message) allowing participants to think about it for the coming week. Similar to other events, anyone can play. Once the event has started, the players have to answer a trivia question as quickly as possible. There's typically two trivia events held back-to-back. Each gives different amounts of gil to the winner(s). An individual may not win two 'main' trivia events in a row. </p>
+      </div>
+      </CollapsibleItem>
+      <CollapsibleItem 
         className="CardOne" 
         header="Glamour Contest"
         style={{textAlign: 'center'}}
       >
       <div className="CardText">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea modi minus doloremque? Repellendus vero quas neque dolores optio, ducimus non ad accusamus. Obcaecati doloremque placeat, dignissimos error harum eveniet, possimus, ipsum architecto dolorem natus laboriosam nemo consequuntur at debitis porro ad adipisci culpa maxime quod quia ducimus sed. Asperiores amet praesentium porro, unde quis sed odio dignissimos saepe repudiandae, eius qui veritatis ipsa autem cumque itaque dolorem ipsam repellendus, voluptatibus deserunt possimus laudantium sunt. Neque!</p>
+        <p>Everyone loves to look good! In this event, you need to bring your best looking glamour to show off. A panel of judges (and more importantly, a crowd) will judge each participants glamour. After everyone has shown off their glamour, the judges will decide the victor and a winner will be announced.</p>
       </div>
       </CollapsibleItem>
       <CollapsibleItem 
@@ -30,7 +37,7 @@ const Events = () => (
         style={{textAlign: 'center'}}
       >
       <div className="CardText">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, voluptate labore! Sequi porro culpa ducimus natus consequuntur at rem minus nulla sed, molestias animi corrupti reprehenderit assumenda et, sapiente nemo vero adipisci deleniti quos iste rerum obcaecati accusamus illum. Atque, reiciendis maiores exercitationem iusto voluptatem recusandae debitis alias. A, quas quam? Eius ratione iusto rerum! Aspernatur fugit laudantium dolorem debitis quo pariatur eaque inventore delectus nostrum rem eligendi optio consequatur, tempore, porro dignissimos voluptatibus obcaecati!</p>
+        <p>Who's been naughty?! Who's been nice!? In this event, similar to traditional Secret Santas, players are given the name of someone and must anonymously find a present for them. The presents will be distrubted on the day assigned by the Event Manager. Typically, players are discourgaed from spending real money for this event.</p>
       </div>
       </CollapsibleItem>
     </Collapsible>

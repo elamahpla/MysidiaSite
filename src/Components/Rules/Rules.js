@@ -1,21 +1,34 @@
 import React from 'react';
+import { Tab, Tabs } from 'react-materialize';
+import { Jumbotron } from 'react-bootstrap';
 
 const Rules = () => (
-  <div>
-    <div className="RulesContainer">
-      <div className="Rules">
-        <div className="SubRules">
-          <h1 style={{textAlign: 'center', textDecoration: 'underline'}}>Rules</h1>
-            <ul>
-              <li>1.) FC Chat needs to remain civil. No name calling, gossip, or belittling other members</li><br/><br/>
-              <li>2.) No course language and sexual innuendo in voice chat when children are present.</li><br/><br/>
-              <li>3.) No offensive comments and or racism or talk that could be considered overly offensive.</li><br/><br/>
-              <li>4.) Treat others with respect, don't be <em>that kind</em> of person. Everyone wants to be treated with respect.</li>
-            </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div className="RulesContainer">
+    <Jumbotron>
+      <Tabs style={{color: 'white'}} className='testing'>
+        <Tab active title="Rule 1">
+          <div className="TabsList">
+            FC chat should remain civil. No name calling, harassment or belittling other members
+          </div>
+        </Tab>
+        <Tab title="Rule 2">
+          <div className="TabsList">
+            No coarse language and sexual harassment/innuendo in FC chat, as well as in Discord. 
+          </div>
+        </Tab>
+        <Tab title="Rule 3">
+          <div className="TabsList">
+            Similar to FC chat, refrain from offensive language of all forms in Discord, both chat and voice.
+          </div>
+        </Tab>
+        <Tab title="Rule 4">
+          <div className="TabsList">
+            Treat others as you'd want to be treated. This means don't be rude to others :).
+          </div>
+        </Tab>
+      </Tabs>
+  </Jumbotron>
+</div>
 );
 
 export default Rules;

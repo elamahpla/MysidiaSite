@@ -1,0 +1,38 @@
+.MystGalleryContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.MystImageGallery {
+  display: flex;
+}
+
+.MystGallery {
+  position: fixed;
+  display: flex; 
+  align-content: center;
+  justify-content: center;
+  top: 8%;
+  height: 90vh;
+}
+
+.image-gallery-slide img {
+  height: 55rem;
+}
+
+@media(max-width: 650px) {
+  .image-gallery-thumbnails {
+    display: none;
+  }
+  .image-gallery-image {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+//I'll have to fix post-prod. I think the parallax is causing >A LOT< of issues
+//Related to positioning. Here, like other elements, I have to force position with
+//My content because of (what I think to be) the parallax. 

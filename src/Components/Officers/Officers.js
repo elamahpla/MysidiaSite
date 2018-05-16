@@ -11,10 +11,12 @@ import ZeixBeoulveModal from '../../Containers/OfficerModals/ZeixBeoulveModal';
 import ChronoHighwindModal from '../../Containers/OfficerModals/ChronoHighwindModal';
 import DanteLeixandModal from '../../Containers/OfficerModals/DanteLeixandModal';
 import VisibilityToggle from '../../Containers/VisibilityToggle/VisibilityToggle';
+import { NavLink } from 'react-router-dom';
 
 const Officers = () => (
   <div>
     <div className="OfficersContainer">
+    <NavLink className="InactiveOfficersLink" to="/officers/inactive"><button>Inactive Officers</button></NavLink>
         <div className="Officers">
           <AliceModal />
           <hr/>
