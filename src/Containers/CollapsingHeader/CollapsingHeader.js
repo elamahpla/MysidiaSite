@@ -17,7 +17,8 @@ class CollapsingHeader extends React.Component {
             <li><NavLink activeStyle={{color: '#03030f', background: '#ebe7e7'}} style={{color: '#ebe7e7', fontSize: '3rem'}} activeClassName="Links" to="/housing">Housing</NavLink></li>
             <li><NavLink activeStyle={{color: '#03030f', background: '#ebe7e7'}} style={{color: '#ebe7e7', fontSize: '3rem'}} activeClassName="Links" to="/calendar">Calendar</NavLink></li>
             <li><NavLink activeStyle={{color: '#03030f', background: '#ebe7e7'}} style={{color: '#ebe7e7', fontSize: '3rem'}} activeClassName="Links" to="/rules">Rules</NavLink></li>
-            <li><NavLink activeStyle={{color: '#03030f', background: '#ebe7e7'}} style={{color: '#ebe7e7', fontSize: '3rem'}} activeClassName="Links" to="/about">About</NavLink></li>  
+            <li><NavLink activeStyle={{color: '#03030f', background: '#ebe7e7'}} style={{color: '#ebe7e7', fontSize: '3rem'}} activeClassName="Links" to="/about">About</NavLink></li>
+            <li><NavLink activeStyle={{color: '#03030f', background: '#ebe7e7'}} style={{color: '#ebe7e7', fontSize: '3rem'}} activeClassName="Links" to="/contact">Contact</NavLink></li>
           </ul>
         </div>     
     </Menu>

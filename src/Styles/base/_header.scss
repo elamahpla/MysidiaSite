@@ -30,8 +30,9 @@
 /* General sidebar styles */
 .bm-menu {
   background: #373a47;
-  padding: 3.5em 2em 1em;
-  font-size: 1.15em;
+  // padding: 2.5em 2.2em 1.3em;
+  padding: 0 2rem 1rem;
+  font-size: 1em;
   width: 27rem;
   position: fixed;
   left: 0;
@@ -70,5 +71,8 @@
   }
   .bm-burger-button:hover {
     transform: translateX(5px);
+  }
+  .bm-item-list {
+    height: 100%;
   }
 }

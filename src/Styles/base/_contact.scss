@@ -1,0 +1,34 @@
+.ContactContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  position: fixed;
+  top: 10%;
+  width: 100%;
+}
+
+.Contact {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+}
+
+.ContactButton {
+  background: rgba(0, 0, 0, 0.3);
+  width: 30rem;
+  border-style: none;
+  box-shadow: 1.5px 1.5px $lightwhite;
+}
+
+.ContactButton:hover {
+  background: rgba(244, 244, 244, 0.3);
+  color: $soulblack;
+  transform: translateY(-3px);
+  box-shadow: 1.5px 1.5px $soulblack;
+}
+
+.ContactButton:active {
+  transform: translateY(3px);
+}

@@ -33,6 +33,23 @@
   transform: translateY(1px);
 }
 
+.InactiveOfficersButton {
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.2);
+  color: $soulblack;
+  border: none;
+  width: 25rem;
+  box-shadow: 1px 1px $soulblack;
+}
+
+.InactiveOfficersButton:hover {
+  transform: translateY(-3px);
+}
+
+.InactiveOfficersButton:active {
+  transform: translateY(3px);
+}
+
 .InactiveOfficersContainer {
   display: flex;
   justify-content: center;
@@ -71,5 +88,12 @@
     height: 50%;
     top: 0;
     left: 0;
+  }
+  .InactiveOfficersLink {
+    top: 70%;
+  }
+  .InactiveOfficersLink button {
+    color: $lightwhite;
+    background: rgba(3, 3, 15, 0.7);
   }
 }

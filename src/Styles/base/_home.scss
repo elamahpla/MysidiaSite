@@ -7,11 +7,20 @@
   flex-direction: column; 
   width: 100%;
   position: fixed;
-  top: 25%;
+  top: 25rem;
   font-size: 2rem;
 }
 
+#HomeImage {
+  position: fixed;
+  top: 1rem;
+  width: 35rem;
+  height: 20rem;
+}
+
 .MemberSpotlight {
+  position: fixed;
+  top: 25rem;
   color: $soulblack;
   background: rgba(235, 231, 231, 0.375);
   display: flex;
@@ -69,6 +78,8 @@
     width: 100%;
   }
   .MemberSpotlight {
+    position: fixed;
+    top: 15rem;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -79,5 +90,14 @@
   }
   .HomeTwo {
     width: 100%;
+  }
+  #HomeImage {
+    width: 35rem;
+    height: 17rem;
+    position: fixed;
+    top: 0;
+  }
+  .MemberSpotlightText {
+    padding: 0;
   }
 }

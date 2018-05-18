@@ -1,36 +1,33 @@
 .RulesContainer {
   position: fixed;
-  top: 35%;
-  left: 50%;
+  top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.Rules {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: $soulblack;
+  background: rgba(243, 243, 243, 0.3);
   width: 50%;
-  height: 50%;
-  padding: 1rem;
-  transform: translate(-50%, -50%);
+  box-shadow: 2.2px 2.2px $soulblack;
 }
 
-.TabsList {
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
-  text-align: center;
-  font-size: 2rem;
-}
-
-.tabs .tab a {
-  color: $soulblack;
-  font-size: 1.55rem;
-}
-
-.tabs .tab a:hover,
-.tabs .tab a.active {
-  color: $soulblack;
-}
-
-.tabs .indicator {
-  background: $soulblack;
+.RulesImages {
+  width: 2.9rem;
+  height: 2.9rem;
+  padding: .2rem;
 }
 
 @media(max-width: 650px) {
-  .RulesContainer {
+  .Rules {
+    font-size: 1.9rem;
+    font-weight: bold;
+    height: 60%;
     width: 100%;
   }
 }

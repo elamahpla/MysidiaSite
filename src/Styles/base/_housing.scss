@@ -2,21 +2,16 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  height: 100%;
-  width: 100%;
-}
-
-.MystImageGallery {
-  display: flex;
 }
 
 .MystGallery {
   position: fixed;
-  display: flex; 
-  align-content: center;
-  justify-content: center;
   top: 8%;
-  height: 90vh;
+}
+
+.image-gallery-image {
+  height: 100%;
+  width: 100%;
 }
 
 .image-gallery-slide img {

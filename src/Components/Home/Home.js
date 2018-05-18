@@ -5,17 +5,11 @@ import MemberSpotlight from '../../Containers/MemberSpotlight/MemberSpotlight';
 const Home = () => (
   <div className="HomeContainer">
     <img
-      style={{
-        width: '25rem', 
-        height: '15rem',
-        position: 'fixed',
-        top: '1%',  
-      }}
+      id="HomeImage"
       src="https://cdn.discordapp.com/attachments/415463104579895296/446343842179055646/Logo2-resized.png" alt=""/>
-      <hr/>
     <hr className="HRHome" />
     <div className="MemberSpotlight">
-    <p>
+    <p className="MemberSpotlightText" >
     Congratulations to Rajhiem Yaranco!!! Your helpfulness,
     friendliness and positive attitude and overall contributions to
     the FC have been noticed and we are happy to recognize you
