@@ -13,7 +13,7 @@ const HighBorn = () => (
       />}
         title="Viscount"
         className="CardRanks"
-        reveal={<p>To become a King/Queen you must have all Combat, Gathering, and Crafting jobs at max level.
+        reveal={<p>To become a Viscount you must have all Combat, Gathering, and Crafting jobs at max level.
           </p>}>
     </Card>
   </div>
