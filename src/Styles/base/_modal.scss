@@ -1,19 +1,11 @@
-.AliceModal {
-  position: absolute;
-  top: 10rem;
-  left: 10rem;
-  right: 10rem;
-  bottom: 10rem;
-  background: rgba(209, 209, 209, 1);
+.ModalImage {
+  height: 20rem;
+  width: 20rem;
+  transition: transform .2s;
 }
 
-.Overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(209, 209, 209, 0.2);
+.ModalImage:hover {
+  transform: scale(1.2);
 }
 
 .ButtonModalOpen {
@@ -37,93 +29,6 @@
   transform: translateY(-1px);
 }
 
-.ButtonModalClose {
-  display: grid; 
-  grid-template-columns: repeat(auto, 1fr);
-  justify-items: center;
-  background: $lightwhite;
+.CloseModalButton {
   color: $soulblack;
-  border: none;
-  position: absolute;
-  right: 50rem;
-  top: 30rem;
-  box-shadow: 1px 2px $soulblack;
-}
-
-.ButtonModalClose:hover {
-  transform: translateY(-3px);
-  background: $offwhite;
-}
-
-.ButtonModalClose:active {
-  transform: translateY(-1px);
-}
-
-.ModalText {
-  margin-top: 10rem;
-  color: $soulblack;
-  padding: 1rem;
-}
-
-.ModalText h1 {
-  text-decoration: underline;
-}
-
-// .AvenModal {
-//   position: absolute;
-//   top: 20rem;
-//   left: 20rem;
-//   right: 20rem;
-//   bottom: 20rem;
-//   background: rgba(209, 209, 209, 1);
-// }
-
-.JoeyModal {
-  position: absolute;
-  top: 20rem;
-  left: 20rem;
-  right: 20rem;
-  bottom: 20rem;
-  background: rgba(209, 209, 209, 1);
-}
-
-.ModalImage {
-  height: 20rem;
-  width: 20rem;
-  transition: transform .2s;
-}
-
-.ModalImage:hover {
-  transform: scale(1.2);
-}
-
-@media(max-width: 650px) {
-  .ModalImage {
-    width: 15rem;
-    height: 15rem;
-  }
-  .ButtonModalOpen {
-    width: 15rem;
-    height: 3rem;
-  }
-  .AliceModal {
-    position: absolute;
-    top: 5rem;
-    left: 5rem;
-    right: 5rem;
-    bottom: 5rem;
-  }
-  .Overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;  
-  }
-  .ButtonModalClose {
-    position: fixed;
-    right: 50%;
-    top: 60rem;
-    display: inline;
-  }
 }

@@ -39,12 +39,9 @@ class AliceModal extends Component {
           overlayClassName="Overlay"
         >
         <div>
-          <AliceOfficerModal onClick={this.handleCloseModal} />
-          {/* <button 
-            onClick={this.handleCloseModal}
-            className="ButtonModalClose">
-            Close
-          </button> */}
+          <AliceOfficerModal
+            className="CloseModalButton"
+            onClick={this.handleCloseModal} />
         </div>
         </Modal>
       </div>
