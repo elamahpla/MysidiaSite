@@ -29,12 +29,10 @@ class ChronoHighwindModal extends Component {
           overlayClassName="Overlay"
         >
         <div>
-          <ChronoHighwindOfficerModal />
-          <button 
+          <ChronoHighwindOfficerModal
             onClick={this.handleCloseModal}
-            className="ButtonModalClose">
-            Close
-          </button>
+            className="CloseModalButton"
+          />
         </div>
         </Modal>
       </div>

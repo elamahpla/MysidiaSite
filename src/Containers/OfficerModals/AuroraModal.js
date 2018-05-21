@@ -21,7 +21,7 @@ class AuroraModal extends Component {
           target="_blank">
           <img 
             className="ModalImage" 
-            src="https://s3-us-west-2.amazonaws.com/mystassets/auroramodal.jpg" 
+            src="https://s3-us-west-2.amazonaws.com/mystassets/auroramodal.png"
             alt="Aurora Dystroyer, Officer, FF14, Mysidia, Myst, Final Fantasy 14, Free Company, Free Company Website, Cactuar"
           />
         </a>
@@ -39,13 +39,10 @@ class AuroraModal extends Component {
           overlayClassName="Overlay"
         >
         <div>
-          <AuroraOfficerModal />
-          <button
+          <AuroraOfficerModal 
             onClick={this.handleCloseModal}
-            onRequestClose={this.handleCloseModal}
-            className="ButtonModalClose">
-            Close
-          </button>
+            className="CloseModalButton"
+          />
         </div>
         </Modal>
       </div>

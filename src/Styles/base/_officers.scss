@@ -1,12 +1,8 @@
 .OfficersContainer {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: stretch; 
-  text-align: center; 
-  color: $soulblack;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
   position: fixed;
   top: 15rem;
   width: 100%;
@@ -34,7 +30,6 @@
 }
 
 .InactiveOfficersButton {
-  padding: 2rem;
   background: rgba(0, 0, 0, 0.3);
   color: $soulblack;
   border: none;
@@ -80,28 +75,20 @@
 }
 
 @media(max-width: 650px) {
-  .OfficersContainer {
-    position: fixed;
-    left: 0;
-    top: 5rem;
-  }
   .Officers {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
     height: 50%;
+    position: fixed;
     top: 0;
-    left: 0;
   }
   .InactiveOfficersLink {
-    top: 70%;
+    top: 53%;
   }
   .InactiveOfficersLink button {
     color: $lightwhite;
     background: rgba(3, 3, 15, 0.7);
-  }
-  .InactiveOfficersToggle {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;    
   }
 }

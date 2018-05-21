@@ -40,13 +40,10 @@ class AvenModal extends Component {
           overlayClassName="Overlay"
         >
         <div>
-          <AvenOfficerModal />
-          <button
+          <AvenOfficerModal 
             onClick={this.handleCloseModal}
-            onRequestClose={this.handleCloseModal}
-            className="ButtonModalClose">
-            Close
-          </button>
+            className="CloseModalButton"
+          />
         </div>
         </Modal>
       </div>

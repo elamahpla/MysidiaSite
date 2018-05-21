@@ -29,12 +29,10 @@ class JohnnyDeepModal extends Component {
           overlayClassName="Overlay"
         >
         <div>
-          <JohnnyDeepOfficerModal />
-          <button 
+          <JohnnyDeepOfficerModal 
             onClick={this.handleCloseModal}
-            className="ButtonModalClose">
-            Close
-          </button>
+            className="CloseModalButton"
+          />
         </div>
         </Modal>
       </div>

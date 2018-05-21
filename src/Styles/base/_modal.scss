@@ -32,3 +32,9 @@
 .CloseModalButton {
   color: $soulblack;
 }
+
+@media(max-width: 650px) {
+  .ModalImage {
+    display: none;
+  }
+}

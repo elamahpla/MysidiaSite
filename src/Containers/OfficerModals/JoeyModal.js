@@ -39,12 +39,10 @@ class JoeyModal extends Component {
           overlayClassName="Overlay"
         >
         <div>
-          <JoeyOfficerModal />
-          <button 
+          <JoeyOfficerModal 
             onClick={this.handleCloseModal}
-            className="ButtonModalClose">
-            Close
-          </button>
+            className="CloseButtonModal"
+          />
         </div>
         </Modal>
       </div>

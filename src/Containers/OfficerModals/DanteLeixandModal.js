@@ -29,12 +29,10 @@ class DanteLeixandModal extends Component {
           overlayClassName="Overlay"
         >
         <div>
-          <DanteLiexandOfficerModal />
-          <button 
+          <DanteLiexandOfficerModal 
             onClick={this.handleCloseModal}
-            className="ButtonModalClose">
-            Close
-          </button>
+            className="CloseModalButton"
+          />
         </div>
         </Modal>
       </div>

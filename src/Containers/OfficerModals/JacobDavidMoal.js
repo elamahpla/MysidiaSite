@@ -29,12 +29,10 @@ class JacobDavidModal extends Component {
           overlayClassName="Overlay"
         >
         <div>
-          <JacobDavidOfficerModal />
-          <button 
+          <JacobDavidOfficerModal 
             onClick={this.handleCloseModal}
-            className="ButtonModalClose">
-            Close
-          </button>
+            className="CloseModalButton"
+          />
         </div>
         </Modal>
       </div>

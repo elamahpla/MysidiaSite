@@ -29,12 +29,10 @@ class ZeixBeoulveModal extends Component {
           overlayClassName="Overlay"
         >
         <div>
-          <ZeixBeoulveOfficerModal />
-          <button 
+          <ZeixBeoulveOfficerModal 
             onClick={this.handleCloseModal}
-            className="ButtonModalClose">
-            Close
-          </button>
+            className="CloseModalButton"
+          />
         </div>
         </Modal>
       </div>

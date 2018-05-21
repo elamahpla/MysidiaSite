@@ -29,12 +29,10 @@ class ColmArkusModal extends Component {
           overlayClassName="Overlay"
         >
         <div>
-          <ColmArkusOfficerModal />
-          <button 
+          <ColmArkusOfficerModal 
             onClick={this.handleCloseModal}
-            className="ButtonModalClose">
-            Close
-          </button>
+            className="CloseModalButton"
+          />
         </div>
         </Modal>
       </div>
