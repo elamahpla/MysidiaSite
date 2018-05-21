@@ -35,7 +35,7 @@
 
 .InactiveOfficersButton {
   padding: 2rem;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.3);
   color: $soulblack;
   border: none;
   width: 25rem;
@@ -43,7 +43,10 @@
 }
 
 .InactiveOfficersButton:hover {
+  background: rgba(244, 244, 244, 0.3);
+  color: $soulblack;
   transform: translateY(-3px);
+  box-shadow: 1.5px 1.5px $soulblack;
 }
 
 .InactiveOfficersButton:active {
@@ -95,5 +98,10 @@
   .InactiveOfficersLink button {
     color: $lightwhite;
     background: rgba(3, 3, 15, 0.7);
+  }
+  .InactiveOfficersToggle {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;    
   }
 }

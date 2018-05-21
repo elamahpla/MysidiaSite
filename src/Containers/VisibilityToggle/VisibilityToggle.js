@@ -24,7 +24,7 @@ class VisibilityToggle extends Component {
             {this.state.visibility ? 'Hide Inactice Officers' : 'Show Inactive Officers'}
         </button>
         {this.state.visibility && (
-          <div>
+          <div className="InactiveOfficersToggle">
             <JacobDavidModal />
             <JohnnyDeepModal />
             <ColmArkusModal />

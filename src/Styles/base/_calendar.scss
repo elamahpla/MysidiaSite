@@ -1,8 +1,19 @@
 .Calendar {
   position: fixed;
-  top: 10%;
+  top: 5%;
   display: flex;
   width: 100vw;
   align-content: center;
   justify-content: center;
+}
+
+.ActualCalendar {
+  height: 90vh;
+  width: 80%;
+}
+
+@media(max-width: 650px) {
+  .ActualCalendar {
+    width: 100%;
+  }
 }

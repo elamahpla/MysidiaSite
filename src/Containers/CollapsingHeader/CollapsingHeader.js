@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import { NavLink } from 'react-router-dom';
 
-class CollapsingHeader extends React.Component {
+class CollapsingHeader extends Component {
   render () {
     return (
       <Menu className="bm-menu" isOpen={false}>
-        <div className="HeaderRoot">
+        <div>
           <ul className="NavLinks">
             <li><NavLink activeStyle={{color: '#03030f', background: '#ebe7e7'}} style={{color: '#ebe7e7', fontSize: '3rem'}} activeClassName="Links" exact to="/">Home</NavLink></li>  
             <li><NavLink activeStyle={{color: '#03030f', background: '#ebe7e7'}} style={{color: '#ebe7e7', fontSize: '3rem'}} activeClassName="Links" to="/officers">Officers</NavLink></li>
