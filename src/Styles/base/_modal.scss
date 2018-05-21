@@ -40,11 +40,12 @@
 .ButtonModalClose {
   display: grid; 
   grid-template-columns: repeat(auto, 1fr);
+  justify-items: center;
   background: $lightwhite;
   color: $soulblack;
   border: none;
   position: absolute;
-  right: 54rem;
+  right: 50rem;
   top: 30rem;
   box-shadow: 1px 2px $soulblack;
 }
@@ -59,22 +60,23 @@
 }
 
 .ModalText {
-  display: grid;
-  grid-template-columns: repeat(auto, 1fr);
-  justify-items: center;
   margin-top: 10rem;
   color: $soulblack;
   padding: 1rem;
 }
 
-.AvenModal {
-  position: absolute;
-  top: 20rem;
-  left: 20rem;
-  right: 20rem;
-  bottom: 20rem;
-  background: rgba(209, 209, 209, 1);
+.ModalText h1 {
+  text-decoration: underline;
 }
+
+// .AvenModal {
+//   position: absolute;
+//   top: 20rem;
+//   left: 20rem;
+//   right: 20rem;
+//   bottom: 20rem;
+//   background: rgba(209, 209, 209, 1);
+// }
 
 .JoeyModal {
   position: absolute;
@@ -119,9 +121,9 @@
     bottom: 0;  
   }
   .ButtonModalClose {
-    position: absolute;
-    width: 10rem;
-    right: 30%;
-    top: 50rem;
+    position: fixed;
+    width: 50%;
+    right: 25%;
+    top: 60rem;
   }
 }
