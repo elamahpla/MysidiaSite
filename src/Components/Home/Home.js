@@ -6,7 +6,9 @@ const Home = () => (
   <div className="HomeContainer">
     <img
       id="HomeImage"
-      src="https://cdn.discordapp.com/attachments/415463104579895296/446343842179055646/Logo2-resized.png" alt=""/>
+      src="https://cdn.discordapp.com/attachments/415463104579895296/446343842179055646/Logo2-resized.png" 
+      alt="Mysidia, Myst, Free Company, FC, FF14, Final Fantasy 14, Cactuar, Casual Free Company, Casual FC, Friendly FC."
+    />
     <hr className="HRHome" />
     <div className="MemberSpotlight">
     <p className="MemberSpotlightText" >

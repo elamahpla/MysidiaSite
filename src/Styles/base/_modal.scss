@@ -29,8 +29,19 @@
   transform: translateY(-1px);
 }
 
+.ButtonModalOpen:focus {
+  background: $offwhite;
+  color: $soulblack;
+}
+
 .CloseModalButton {
   color: $soulblack;
+  background: $lightwhite;
+}
+
+.CloseModalButton:focus {
+  color: $soulblack;
+  background: $lightwhite;
 }
 
 @media(max-width: 650px) {

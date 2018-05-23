@@ -58,6 +58,11 @@
   transform: translateY(-1px);
 }
 
+.MemberSpotlightButton:focus {
+  background: $lightwhite;
+  color: $soulblack;
+}
+
 .HomeContainer p {
   float: left;
   text-align: center;

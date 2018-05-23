@@ -13,7 +13,8 @@
 
 .Challenges {
   color: $lightwhite;
-  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
   background-image: url('https://s3-us-west-2.amazonaws.com/mystassets/kapow.png');
   display: flex;
   justify-content: center;

@@ -53,6 +53,8 @@ class MystGallery extends React.Component {
  
     return (
       <ImageGallery
+        showFullscreenButton={false}
+        showPlayButton={false}
         autoPlay="true"
         items={images} 
         thumbnailPosition='top'

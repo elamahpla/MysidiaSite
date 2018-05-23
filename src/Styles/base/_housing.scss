@@ -2,20 +2,24 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 .MystGallery {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   position: fixed;
   top: 8%;
 }
 
-.image-gallery-image {
-  height: 100%;
-  width: 100%;
+.image-gallery-slide img {
+  height: 60rem;
 }
 
-.image-gallery-slide img {
-  height: 55rem;
+.image-gallery-content {
+  width: 100%;
 }
 
 @media(max-width: 650px) {
