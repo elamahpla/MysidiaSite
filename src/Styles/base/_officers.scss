@@ -48,6 +48,11 @@
   transform: translateY(3px);
 }
 
+.InactiveOfficersButton:focus {
+  background: rgba(0, 0, 0, 0.3);
+  color: $soulblack;
+}
+
 .InactiveOfficers:focus {
   background: rgba(0, 0, 0, 0.3);
   color: $soulblack;

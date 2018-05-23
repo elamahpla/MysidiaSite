@@ -10,7 +10,7 @@ const MystParallax = () => (
     <Parallax 
       bgImage={imageThree}
       strength={170}
-      style={{height: '115vh'}}>
+      style={{height: '115vh', width: '99.1vw'}}>
       <div style={{height: '10%'}}>
       <img src={imageTwo} />
       </div>
