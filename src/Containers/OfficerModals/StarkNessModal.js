@@ -23,7 +23,7 @@ class StarkNessModal extends Component {
         </button>
         <Modal
           isOpen={this.state.showModal}
-          contentLabel="Alice"
+          contentLabel="StarkNess"
           onRequestClose={this.handleCloseModal}
           className="AliceModal"
           overlayClassName="Overlay"

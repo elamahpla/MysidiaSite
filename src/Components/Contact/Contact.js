@@ -7,10 +7,15 @@ const Contact = () => (
     <div className="Contact">
       <Well>
         Like what you see? Contact me here: <br/><br/>
-        <Button
-          className="ContactButton" 
-          waves='light'>Email
+        <a 
+          href="mailto:joeyrobinsondev@gmail.com" 
+          target="_blank">
+        <Button 
+          waves='light' 
+          className="ContactButton">
+          Email
         </Button>
+        </a>
       </Well>
     </div>
   </div>

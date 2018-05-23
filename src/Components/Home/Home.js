@@ -21,10 +21,6 @@ const Home = () => (
         alt="Final Fantasy 14, Mysidia, Myst, Free Company, FC, Chocobo, Cactuar, Casual FC, Friendly FC"
       />
     </div>
-    <hr/>
-    {/* <div className="HomeTwo">
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta quasi eaque eveniet praesentium accusantium, perferendis ducimus natus nihil ex tenetur magnam non, debitis voluptate veniam.</p>
-    </div> */}
   </div>
 );
 

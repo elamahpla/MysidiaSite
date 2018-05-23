@@ -9,9 +9,17 @@ class AliceModal extends Component {
   };
   handleOpenModal = () => {
     this.setState({showModal: true});
+    const elements = document.getElementsByClassName('ButtonModalOpen')
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].disabled = true
+    }  
   }
   handleCloseModal = () => {
     this.setState({showModal: false});
+    const elements = document.getElementsByClassName('ButtonModalOpen')
+    for (let i = 0; i < elements.length; i++) {
+    elements[i].disabled = false
+    }
   }
   render() {
     return (
@@ -32,11 +40,12 @@ class AliceModal extends Component {
           Alice
         </Button>
         <Modal
+          onRequestClose={this.handleCloseModal}
           isOpen={this.state.showModal}
           contentLabel="Alice"
-          onRequestClose={this.handleCloseModal}
           className="AliceModal"
           overlayClassName="Overlay"
+          contentLabel="Modal For Alice."
         >
         <div>
           <AliceOfficerModal
