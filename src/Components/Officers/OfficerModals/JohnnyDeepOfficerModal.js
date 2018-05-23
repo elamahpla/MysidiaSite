@@ -6,8 +6,8 @@ const JohnnyDeepOfficerModal = (props) => (
       className="CloseModalButton" 
       onClick={props.onClick}
     >
-    <h1>Hi, I'm Alice.</h1>
-      <p>My real name as you may have guessed is Jacob. My two Favorite Final Fantasy Games are 2 and 7. I live in Colorado and have four children. I love to ride Flatland BMX and sometimes play a Pennywhistle. Though I prefer healing I can fill in for other roles when needed as well. </p>
+    <h1>Hi, I'm Johnny.</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, aliquid autem illum est possimus consectetur? Quibusdam voluptatibus doloribus voluptate hic cumque tempora repellendus rem obcaecati?</p>
     </button>
   </div>
 );
