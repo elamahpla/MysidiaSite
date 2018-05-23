@@ -16,10 +16,6 @@ const About = () => (
   <div className="AboutMysidia">
     <h1>Why the name Mysidia?</h1>
     <p>Mysidia is a town in Final Fantasy IV. Mysidia is inhabited by wizards and is ruled by an Elder. It is the hometown of Palom and Porom, which is one end of Devil's Road and connects Baron with Mysidia. The Tower of Prayers is located in Mysidia which is where the Elder prays for those he cares about.</p>
-    <img 
-      src="https://static.wixstatic.com/media/21e8d8_87b08bffc80a411a9048504361d3a130~mv2.jpg/v1/fill/w_570,h_105,al_c,lg_1,q_80/21e8d8_87b08bffc80a411a9048504361d3a130~mv2.jpg" 
-      alt="Final Fantasy 14, Mysidia, Myst, Free Company, FC, Chocobo, Cactuar, Casual FC, Friendly FC"
-    />
   </div>
     <div className="DiscordContainer">
       <br/>

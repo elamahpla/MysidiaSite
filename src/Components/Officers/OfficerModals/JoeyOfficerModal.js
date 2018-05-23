@@ -3,8 +3,8 @@ import React from 'react';
 const JoeyOfficerModal = (props) => (
   <div className="ModalText">
     <button className="CloseModalButton" onClick={props.onClick}>
-    <h1>Hi, I'm Alice.</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex suscipit a aliquam quisquam debitis possimus, expedita, laborum neque voluptatum minus commodi ipsam similique porro, placeat repellendus vitae sunt quaerat cupiditate perspiciatis corrupti praesentium. Doloremque quibusdam mollitia esse et at ratione omnis ipsum quae itaque dolor sapiente similique, numquam molestias facere.</p>
+    <h1>Hi, I'm Joey.</h1>
+      <p>Hello. I'm supposed to fill this out, but I'm putting this here. No one will ever notice. I like raiding and gathering. If you need any help feel free to ask. Oh, I made this website.</p>
     </button>
   </div>
 );
