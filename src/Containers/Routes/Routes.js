@@ -11,12 +11,13 @@ import Rules from '../../Components/Rules/Rules';
 import MyHeader from '../../Components/StickyHeader/MyHeader';
 import About from '../../Components/About/About';
 import Contact from '../../Components/Contact/Contact';
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import { HashRouter, BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import InactiveOfficers from '../../Components/Officers/OfficerModals/InactiveOfficers/InactiveOfficers';
 
 class Routes extends Component {
   render() {
     return (
+      <HashRouter>
       <Router>
         <div>
         <MyHeader />
@@ -36,6 +37,7 @@ class Routes extends Component {
           </Switch>
         </div>
     </Router>
+    </HashRouter>
     );
   }
 };
