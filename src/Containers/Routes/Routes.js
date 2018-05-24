@@ -13,6 +13,7 @@ import About from '../../Components/About/About';
 import Contact from '../../Components/Contact/Contact';
 import { HashRouter, BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import InactiveOfficers from '../../Components/Officers/OfficerModals/InactiveOfficers/InactiveOfficers';
+import Footer from '../../Components/Footer/Footer';
 
 class Routes extends Component {
   render() {
@@ -20,6 +21,7 @@ class Routes extends Component {
       <HashRouter>
         <div>
         <MyHeader />
+        <Footer />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/officers" component={Officers} />

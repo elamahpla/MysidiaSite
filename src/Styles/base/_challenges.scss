@@ -13,9 +13,6 @@
 
 .Challenges {
   color: $lightwhite;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url('https://s3-us-west-2.amazonaws.com/mystassets/kapow.png');
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -44,12 +41,5 @@
     width: 70vw;
     display: flex;
     flex-direction: column;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url('https://s3-us-west-2.amazonaws.com/mystassets/kapow.png');
-  }
-  .Challenges {
-    background-image: url('');
   }
 }

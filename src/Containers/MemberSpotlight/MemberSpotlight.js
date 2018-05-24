@@ -15,7 +15,7 @@ class MemberSpotlight extends Component {
     return (
       <div>
         <button className="MemberSpotlightButton" onClick={this.handleToggleVisibility}>
-            {this.state.visibility ? 'Hide Rquirements' : 'How to be Featured'}
+            {this.state.visibility ? 'Hide Requirements' : 'How to be Featured'}
         </button>
         {this.state.visibility && (
           <div className="MemberSpotlightText">
