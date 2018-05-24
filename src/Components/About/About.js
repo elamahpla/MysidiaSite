@@ -4,6 +4,7 @@ const About = () => (
   <div className="AboutContainer">
     <div className="About">
       <img
+        id="AboutImage"
         src="https://s3-us-west-2.amazonaws.com/mystassets/homechoco.jpg" 
         alt="Final Fantasy 14, Mysidia, Myst, Free Company, FC, Chocobo, Cactuar, Casual FC, Friendly FC"
       />
