@@ -18,7 +18,8 @@ const Home = () => (
     for our Member Spotlight! Thank you for being awesome, and see you in game!
     <MemberSpotlight />
     </p>
-      <img 
+      <img
+        id="MemberSpotlightImage"
         src="https://s3-us-west-2.amazonaws.com/mystassets/test001.png" 
         alt="Final Fantasy 14, Mysidia, Myst, Free Company, FC, Chocobo, Cactuar, Casual FC, Friendly FC"
       />
