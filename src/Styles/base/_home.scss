@@ -30,6 +30,8 @@
 
 #MemberSpotlightImage {
   width: 22%;
+  height: 25rem;
+  max-height: 25rem;
 }
 
 .HomeTwo {
@@ -72,12 +74,6 @@
   text-align: center;
 }
 
-.HomeContainer img {
-  float: right;
-  height: 25rem;
-  width: 17rem;
-}
-
 @media(max-width: 639px) {
   .HomeContainer {
     display: flex;
@@ -92,7 +88,6 @@
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
-    font-weight: bold;
     background: rgba(0, 0, 0, 0.3);
     color: $lightwhite;
   }
@@ -107,5 +102,8 @@
   }
   .MemberSpotlightText {
     padding: 0;
+  }
+  #MemberSpotlightImage {
+    width: 25%;
   }
 }
