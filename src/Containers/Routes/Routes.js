@@ -18,7 +18,6 @@ class Routes extends Component {
   render() {
     return (
       <HashRouter>
-      <Router>
         <div>
         <MyHeader />
           <Switch>
@@ -36,7 +35,6 @@ class Routes extends Component {
             <Route path="/contact" component={Contact} />
           </Switch>
         </div>
-    </Router>
     </HashRouter>
     );
   }
